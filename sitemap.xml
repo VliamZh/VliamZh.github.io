@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vliamzh.github.io/2024/05/13/%E5%A4%87%E4%BB%BD/</loc>
-    
-    <lastmod>2024-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/2024/05/13/markdown%E8%AF%AD%E6%B3%95/</loc>
     
     <lastmod>2024-05-13</lastmod>
@@ -20,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/2024/05/13/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2024-05-13</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/</loc>
+    <loc>https://vliamzh.github.io/2024/05/13/%E5%A4%87%E4%BB%BD/</loc>
+    
+    <lastmod>2024-05-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/2024/05/13/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</loc>
     
     <lastmod>2024-05-13</lastmod>
     
