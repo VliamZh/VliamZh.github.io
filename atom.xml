@@ -51,6 +51,38 @@
   </entry>
   
   <entry>
+    <title>备份</title>
+    <link href="https://vliamzh.github.io/2024/05/13/%E5%A4%87%E4%BB%BD/"/>
+    <id>https://vliamzh.github.io/2024/05/13/%E5%A4%87%E4%BB%BD/</id>
+    <published>2024-05-13T13:43:10.000Z</published>
+    <updated>2024-05-13T14:14:27.281Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h1><ol><li><p>需要在github创建一个仓库，然后把clone该仓库</p><pre><code class="git">git clone https://github.com/vliamzh/blogbackup.git</code></pre></li><li><p>将之前博客目录全部复制到该文件夹下（除了.git&#x2F;），以后都在该目录下工作</p></li><li><p>需要备份的时候直接运行以下命令</p><pre><code class="git">git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push -f</code></pre></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;备份&quot;&gt;&lt;a href=&quot;#备份&quot; class=&quot;headerlink&quot; title=&quot;备份&quot;&gt;&lt;/a&gt;备份&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;需要在github创建一个仓库，然后把clone该仓库&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;git&quot;&gt;git cl</summary>
+      
+    
+    
+    
+    <category term="其它" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    <category term="hexo" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
+    
+    <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
+    
+    <category term="备份" scheme="https://vliamzh.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>图床测试</title>
     <link href="https://vliamzh.github.io/2024/05/13/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
     <id>https://vliamzh.github.io/2024/05/13/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</id>
