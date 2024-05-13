@@ -117,9 +117,9 @@
     <link href="https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/"/>
     <id>https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/</id>
     <published>2024-05-13T12:22:40.000Z</published>
-    <updated>2024-05-13T14:21:30.610Z</updated>
+    <updated>2024-05-13T14:22:43.916Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p><h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章$ hexo new &quot;文章名&quot;#生成静态文件$ hexo generate // hexo g#将一个草稿发布出去$ hexo publish [layout] &lt;filename&gt;#启动一个本地服务器$ hexo server // hexo s#推送到服务器hexo deploy // hexo d# 在git bash中设置快捷键echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc</code></pre>]]></content>
     
     
       

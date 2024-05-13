@@ -258,7 +258,7 @@
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="4">
-<input type="hidden" id="yelog_site_word_count" value="4.9k">
+<input type="hidden" id="yelog_site_word_count" value="5k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -423,12 +423,12 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2024-05-13 22:21:30'>2024-05-13 20:22</time>
+            发布时间 : <time class="date" title='最后更新: 2024-05-13 22:22:43'>2024-05-13 20:22</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:61</span>
+        <span>字数:185</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -458,7 +458,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E7%BD%AE%E9%A1%B6"><span class="toc-text">设置置顶</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E7%BD%AE%E9%A1%B6"><span class="toc-text">设置置顶</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4"><span class="toc-text">快捷命令</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -487,6 +487,25 @@ tags:
 ---
 </code></pre>
 <p>如果存在多个置顶文章，top后的参数越大，越靠前。</p>
+<h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章
+$ hexo new &quot;文章名&quot;
+
+#生成静态文件
+$ hexo generate // hexo g
+
+#将一个草稿发布出去
+$ hexo publish [layout] &lt;filename&gt;
+
+#启动一个本地服务器
+$ hexo server // hexo s
+
+#推送到服务器
+hexo deploy // hexo d
+
+# 在git bash中设置快捷键
+echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务
+alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc
+</code></pre>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。 </span>
