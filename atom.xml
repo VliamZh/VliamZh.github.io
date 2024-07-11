@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-05-17T07:34:53.328Z</updated>
+  <updated>2024-05-19T06:35:13.309Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SOC核心与线程</title>
+    <link href="https://vliamzh.github.io/2024/05/19/SOC%E6%A0%B8%E5%BF%83%E4%B8%8E%E7%BA%BF%E7%A8%8B/"/>
+    <id>https://vliamzh.github.io/2024/05/19/SOC%E6%A0%B8%E5%BF%83%E4%B8%8E%E7%BA%BF%E7%A8%8B/</id>
+    <published>2024-05-19T05:03:42.000Z</published>
+    <updated>2024-05-19T06:35:13.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考：<a href="https://www.eetop.cn/cpu_soc/6951291.html">浅谈多核心CPU和SoC芯片及其工作原理 - 微处理器 - -EETOP-创芯网</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;参考：&lt;a href=&quot;https://www.eetop.cn/cpu_soc/6951291.html&quot;&gt;浅谈多核心CPU和SoC芯片及其工作原理 - 微处理器 - -EETOP-创芯网&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="IC" scheme="https://vliamzh.github.io/categories/IC/"/>
+    
+    <category term="CPU" scheme="https://vliamzh.github.io/categories/IC/CPU/"/>
+    
+    
+    <category term="cpu" scheme="https://vliamzh.github.io/tags/cpu/"/>
+    
+    <category term="soc" scheme="https://vliamzh.github.io/tags/soc/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vim自用</title>
     <link href="https://vliamzh.github.io/2024/05/17/vim%E8%87%AA%E7%94%A8/"/>
     <id>https://vliamzh.github.io/2024/05/17/vim%E8%87%AA%E7%94%A8/</id>
     <published>2024-05-17T05:28:53.000Z</published>
-    <updated>2024-05-17T07:34:53.328Z</updated>
+    <updated>2024-05-17T07:55:08.710Z</updated>
     
     <content type="html"><![CDATA[<p>[toc]</p><h1 id="一、帮助文件"><a href="#一、帮助文件" class="headerlink" title="一、帮助文件"></a>一、帮助文件</h1><h2 id="1-帮助文件的使用"><a href="#1-帮助文件的使用" class="headerlink" title="1. 帮助文件的使用"></a>1. 帮助文件的使用</h2><p>帮助文件方便随时查阅</p><pre><code class="vim">在命令行输入:help或在右边分栏显示:vert bo h number (:vertical boright help number) vert表示将后面的命令结果垂直分割显示 boright表示窗口在右边更多:help x 得到x命令的帮助:help CTRL-A 得到命令模式下ctrl_a的帮助:help i_CTRL_H 得到插入模式下ctrl_h的帮助:h i_&lt;UP&gt; :h E37 得到某一个错误的帮助</code></pre><h1 id="二、常用"><a href="#二、常用" class="headerlink" title="二、常用"></a>二、常用</h1><h2 id="1-插入与替换"><a href="#1-插入与替换" class="headerlink" title="1. 插入与替换"></a>1. 插入与替换</h2><pre><code>i 光标前插入I 光标置于当前行的第一个非空白字符进入插入模式a 光标后插入A 光标置于行尾进入插入模式o 下面另起一行，并直接变成插入模式O 大写，在上面另起一行，并变成插入模式cw 删除当前word重新编写C/c$ 删除到行尾重新编写 直接用C可以代替S/cc 删除整行重新编写，保留缩进 直接用S可以代替s/cl 修改一个字符cis 修改整个句子，不包括后面空格，as包括r 替换，r&lt;ENTER&gt; 直接隔断换行R 直接进入替换模式，输入内容直接替换直到ESC</code></pre><p>PS：命令行计数</p><pre><code>3a! 可以直接插入3个！3x 直接删除3个字符3k 直接上移3个位置3w 移动3个word1$ 移动到当前行的行尾2$ 移动到下一行的行尾3fa 向右搜索第三个a出现的位置33G 跳转到33行3# 向上搜索单词出现的第三次位置</code></pre><h2 id="2-删除与复制、粘贴"><a href="#2-删除与复制、粘贴" class="headerlink" title="2. 删除与复制、粘贴"></a>2. 删除与复制、粘贴</h2><pre><code>x 光标下的字符删除，或者dlX 删除光标左边的字符，dhdd 删除一行dw 删除光标所在处的worddaw 删除光标所在的整个word！！！D/d$ 一直删除到末尾，直接大写DJ 两行合并为一行u 撤销U 大写，撤销对一行的全部操作，如一行某个单词被x，通过U可以直接恢复ctrl-r 重做：反转撤销p 会把x和d删除内容重新put回来放到光标后，P则放到光标前y 文本复制到寄存器找那个，yanking，yw复制一个word会把word后面的空白字符也复制，用ye可以避免yy 复制整行y$ 复制一直到行尾的内容&quot;*yy 把一行内容复制到剪切板！！！&quot;*p 从剪切板粘贴</code></pre><h2 id="3-移动与跳转"><a href="#3-移动与跳转" class="headerlink" title="3. 移动与跳转"></a>3. 移动与跳转</h2><pre><code class="‘">% 跳转到匹配符号，比如（）[] &#123;&#125; 直接跳转到匹配嵌套的符号，常用！！！！！50% 光标定位到文件中间，90%则是接近尾巴处H/M/L 定位到文件HOME/MIDDLE/LAST位置w 以1个word为单位向前移动，移动到下一个单词的首字符b 同上，但移动到上一个单词的首字符e 以1个word为单位向前移动，但是移动到下一个单词的末尾字符，end of wordge 同上，但是移动到上一个单词的末尾字符W/B E/gE 上面字母大写，表示移动的word内部含有- _ (等符号，即这些符号与word被这些操作认为是新的WORD$ 类似键盘的end，移动到行尾0 数字，类似键盘的home，移动到行首，字面意思，不区分空白与非空白字符，直接行首顶格^ 移动到当前行的第一个非空白的字符上fy 命令模式下向右直接跳转到第一个y的位置，类似fh则跳转到字符h的位置，F则向左搜索，f的意思是findty 同上，但是不是跳转到y的位置，而是跳转到y前一个字符为止，T则向左， t的意思是to；与， 可以重复上面操作 注：这两个可能会用于其他用途CTRL-G 显示当前行号CTRL-U 向上滚动半个屏幕，CTRL-D则是向下，CTRL-E滚动一行，CTRL-Y与其相反CRRL-F 滚动一个屏，，CTRL-B与其方向相反zz 定位当前屏幕的正中央，最好不用，因为ZZ是保存与退出，容易误操作zb 当前行置于屏幕最低部zt 当前行置于屏幕最顶部</code></pre><h2 id="4-搜索"><a href="#4-搜索" class="headerlink" title="4. 搜索"></a>4. 搜索</h2><pre><code>/ 搜索字符，比如/zh 搜索字符zh .*[]%^?~$ 需要前面加上转义字符\？搜索字符，方向与/相反n 跳转到下一个搜索字符，N方向相反:set ignorecase 忽略大小写 搜索* 直接光标放到单词位置，按下*即可搜索，#也可以，只不过方向相反/the\&gt; 只会搜索the结尾，而不会搜索there这种，\表示单词结束/\&lt;the\&gt; 只会搜索单词theg* 会搜索到包含单词的部分，比如搜索the，则会高亮到there这种，*和#都是完整匹配一个单词的！！！:set hlserach高亮设置:set noh 取消高亮正则表达式^include 只会搜索一行开头的includewas$ 只会搜索结尾的was/^the$ 只会搜索仅有the的字符. 匹配任何字符，如c.m会找到类似cam,com,cem等字符特殊字符要加\，比如搜索“ter.”则用ter\.`` 在两点来回跳转，先用G，在``回到起始位置，推荐ctrl-o,ctrl-i或ctrl-t,或鼠标右键</code></pre><h2 id="5-标记"><a href="#5-标记" class="headerlink" title="5. 标记"></a>5. 标记</h2><pre><code>ma 当前光标下的位置名标记为a，有26字母可选mb...mz 使用`a，跳到标签a，`z调到标签z，然后``在二者来回跳转！！！使用单引号’a，跳到标签a所在行首:marks 查看标记点:jumps 查看跳转过的位置列表</code></pre><h2 id="6-特殊字符"><a href="#6-特殊字符" class="headerlink" title="6. 特殊字符"></a>6. 特殊字符</h2><pre><code>. 重复操作命令</code></pre><h2 id="7-块操作"><a href="#7-块操作" class="headerlink" title="7. 块操作"></a>7. 块操作</h2><pre><code>v 选择范围V 大写，选择一行ctrl-v 选择一个矩形块，然后按hjkl选择，如果想回到起始位置扩大起点可以按o，表示other end另一头！！！</code></pre><h2 id="8-大小写"><a href="#8-大小写" class="headerlink" title="8. 大小写"></a>8. 大小写</h2><pre><code>~ 可以配合块操作一键大写或小写内容</code></pre>]]></content>
     
@@ -172,9 +201,9 @@
     <link href="https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/"/>
     <id>https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/</id>
     <published>2024-05-13T12:22:40.000Z</published>
-    <updated>2024-05-13T14:22:43.916Z</updated>
+    <updated>2024-07-11T14:57:11.837Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p><h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章$ hexo new &quot;文章名&quot;#生成静态文件$ hexo generate // hexo g#将一个草稿发布出去$ hexo publish [layout] &lt;filename&gt;#启动一个本地服务器$ hexo server // hexo s#推送到服务器hexo deploy // hexo d# 在git bash中设置快捷键echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p><h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章$ hexo new &quot;文章名&quot;#生成静态文件$ hexo generate // hexo g#将一个草稿发布出去$ hexo publish [layout] &lt;filename&gt;#启动一个本地服务器$ hexo server // hexo s#推送到服务器hexo deploy // hexo d# 在git bash中设置快捷键echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc# 一般流程hexo cleanhexo ghexo s ，打开网页测试，没错误就可以输入下面的命令了hexo d</code></pre>]]></content>
     
     
       
