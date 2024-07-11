@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-07-11T15:07:57.096Z</updated>
+  <updated>2024-07-11T15:10:38.037Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     <id>https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
     <published>2024-07-11T15:04:24.000Z</published>
-    <updated>2024-07-11T15:07:57.096Z</updated>
+    <updated>2024-07-11T15:10:38.037Z</updated>
     
     <content type="html"><![CDATA[<h1 id="博客搭建过程"><a href="#博客搭建过程" class="headerlink" title="博客搭建过程"></a>博客搭建过程</h1><p>参考：<a href="https://wallleap.cn/2019/08/24/mac-blog1/">wallleap的博客</a></p>]]></content>
     
@@ -34,6 +34,8 @@
     
     
     <category term="博客" scheme="https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="博客搭建" scheme="https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="博客" scheme="https://vliamzh.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
