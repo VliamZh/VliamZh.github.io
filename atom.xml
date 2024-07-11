@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-07-11T15:10:38.037Z</updated>
+  <updated>2024-07-11T15:13:04.864Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汽车</title>
+    <link href="https://vliamzh.github.io/2024/07/11/%E6%B1%BD%E8%BD%A6/"/>
+    <id>https://vliamzh.github.io/2024/07/11/%E6%B1%BD%E8%BD%A6/</id>
+    <published>2024-07-11T15:12:10.000Z</published>
+    <updated>2024-07-11T15:13:04.864Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="from-b站"><a href="#from-b站" class="headerlink" title="from b站"></a>from b站</h1><h1 id="汽车基础"><a href="#汽车基础" class="headerlink" title="汽车基础"></a>汽车基础</h1><ol><li><p>真皮座椅：夏天热、冬天冷，所以有座椅打孔通风、座椅加热，看着豪华，布座最好，所以买的真皮座椅最好带个布套；</p></li><li><p>天窗：晕车可以用，但会导致温室效应，所以非必须；</p></li><li><p>仪表盘：中置好，因为视野可以在减速时不会发生大幅度变化；</p></li><li><p>方向盘：中间固定的，还行。雪铁龙，盾形；方向盘可以调的！！！</p></li><li><p>刹车：右脚控制刹车油门（车评人觉得可以），左脚踩刹车（赛车手觉得可以）；</p></li><li><p>发动机：汽车心脏，为内燃机，外燃机如火车</p></li><li><ol><li>燃料燃烧产生热量，火塞点燃效率不高，压燃原理（烧柴油）</li><li>产生热量推动叶片-燃气轮机，比如飞机、舰艇，重量轻重量轻耗油多-油老虎</li><li>往复式内燃机，高温高压燃气在气缸中推动<strong>活塞</strong>干活，在其中膨胀推动活塞，温度下降，热量推动活塞，活塞推动连杆，<strong>连杆</strong>推动<strong>曲柄</strong>转动，气缸中的燃气不能跑出来，所以有个<strong>气缸盖—曲柄连杆机构！</strong></li><li>发动机需要进气门、排气门，控制二者打开的凸轮和弹簧，进来空气，出去废气！<img src="https://cdn.nlark.com/yuque/0/2024/png/38456664/1720434224504-ff8291c1-90cf-45de-b037-43ed3f8b816b.png" alt="img"></li><li>燃料供应系统，需要空气进入和燃料进入才能燃烧！</li><li>点火系统，对于汽油机来说包括<strong>电源、点火线圈、火花塞</strong>！</li><li>润滑系统，减少发动机的摩擦和磨损；</li><li>燃气燃烧产生的热量会传给发动机，需要及时散热！———冷却系统</li><li>启动系统——启动发动机！</li><li>四冲程理论：发动机的工作分为四个冲程（步骤）</li></ol></li><li><ol><li><ol><li>曲柄转动——连杆带动活塞下行——凸轮压下气门弹簧，推动进气门打开，汽油和空气的混合气体吸入气缸中 《吸气冲程》</li><li>曲柄带动活塞运动到不能继续向下的位置（活塞的下止点）——曲柄带着活塞向上运动，开始压缩，弹簧回弹，进气门关闭，气缸的混合气被压缩，温度不断上升，蒸发变成汽油蒸气，《压缩冲程》高温的燃气膨胀，温度下降，  活塞上升到不能继续上升的位置（上止点），混合气的温度很高，但是依然不能自燃，这时火花塞产生电火花点燃混合气，生成高温高压的燃气，燃气膨胀推动活塞向下，连杆带动曲柄转动，直至活塞到达下止点，<strong>《做功冲程》</strong></li><li>到达下止点，内部燃气温度压力下降，成为废气，排气门被凸轮推开，曲柄带着活塞上行，废气排出 《排气冲程》，之后排气门弹簧回弹，排气门关闭。</li><li>注：<strong>柴油机不一样</strong>，第一气缸内吸进来的气体是空气，第二燃气是由喷油嘴喷进（上止点），气缸的压缩空气温度大于柴油的着火点所以会直接燃烧，</li><li>发动机的<strong>每个冲程，曲柄转动180度</strong>，所以<strong>两圈曲柄（720°）转动</strong>做一次功。</li><li>由于四个冲程只有一个冲程是发动机<strong>做功（活塞带着曲柄转</strong>），其余三个都是<strong>曲柄带着活塞转</strong>，所以效率低，因此会有多缸机（比如四个缸一起，每个），<strong>这里的关键是让每个冲程都由活塞带着曲柄转，因此四缸机可以实现</strong>，不但可以实现动力，还可以推动别的气缸吸气、压缩、排气。<img src="https://cdn.nlark.com/yuque/0/2024/png/38456664/1720435560450-43985f78-54ee-4e61-bd3c-1b37cde21856.png" alt="img"></li><li>气缸数大于4小于4，装飞轮？-见连杆曲柄结构！</li><li>气缸排排成一列直列（一般最多6个），两列V型（6、8、10、12），还有水平对置发动机（更贵）</li></ol></li></ol></li><li><ol><li>发动机性能参数：</li></ol></li><li><ol><li><ol><li>千瓦&#x3D;0.735X马力</li><li>排量，越大<strong>税越高</strong></li><li><img src="https://cdn.nlark.com/yuque/0/2024/png/38456664/1720435940169-9ab2af72-6ed2-4309-a1f5-74e8e79aa9dd.png" alt="img"></li><li>输出转矩，可以通过变速箱变得接近理想</li><li>接近理想输出曲线的是电动机和蒸汽机！</li><li>发动机效率（**30~40%**热量变为多少做的功），柴油车效率高，省油。</li><li>油耗曲线。kw.&#x2F;h，相当于电量的度</li><li><img src="https://cdn.nlark.com/yuque/0/2024/png/38456664/1720436407280-537185e0-8c25-4652-90e1-2069766ce774.png" alt="img"></li><li><strong>最佳转速下的油耗最低，如果在这个区间觉得车速过快，则是马力大了，说明油耗不适合你，如果觉得车速慢，则是马力小了，如果再给地板油给快车，会让油耗变高。</strong></li><li></li></ol></li></ol></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;from-b站&quot;&gt;&lt;a href=&quot;#from-b站&quot; class=&quot;headerlink&quot; title=&quot;from b站&quot;&gt;&lt;/a&gt;from b站&lt;/h1&gt;&lt;h1 id=&quot;汽车基础&quot;&gt;&lt;a href=&quot;#汽车基础&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="汽车" scheme="https://vliamzh.github.io/categories/%E6%B1%BD%E8%BD%A6/"/>
+    
+    <category term="基础" scheme="https://vliamzh.github.io/categories/%E6%B1%BD%E8%BD%A6/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="发动机" scheme="https://vliamzh.github.io/tags/%E5%8F%91%E5%8A%A8%E6%9C%BA/"/>
+    
+    <category term="汽车" scheme="https://vliamzh.github.io/tags/%E6%B1%BD%E8%BD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>博客搭建</title>
