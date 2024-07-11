@@ -1,3 +1,4 @@
+https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/
 https://vliamzh.github.io/2024/05/19/SOC%E6%A0%B8%E5%BF%83%E4%B8%8E%E7%BA%BF%E7%A8%8B/
 https://vliamzh.github.io/2024/05/17/vim%E8%87%AA%E7%94%A8/
@@ -14,6 +15,7 @@ https://vliamzh.github.io/tags/vim/
 https://vliamzh.github.io/tags/%E6%95%99%E7%A8%8B/
 https://vliamzh.github.io/tags/%E5%AF%BC%E8%88%AA/
 https://vliamzh.github.io/tags/%E7%BD%91%E7%AB%99/
+https://vliamzh.github.io/tags/%E5%8D%9A%E5%AE%A2/
 https://vliamzh.github.io/tags/picgo/
 https://vliamzh.github.io/tags/%E5%9B%BE%E5%BA%8A/
 https://vliamzh.github.io/tags/typora/
@@ -26,6 +28,7 @@ https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/
 https://vliamzh.github.io/categories/Linux/
 https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/
 https://vliamzh.github.io/categories/IC/CPU/
+https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/
 https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/
 https://vliamzh.github.io/categories/Linux/vim/
 https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/%E7%BD%91%E7%AB%99/
