@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vliamzh.github.io/2024/07/11/Linux%E8%87%AA%E7%94%A8/</loc>
+    
+    <lastmod>2024-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/2024/05/17/vim%E8%87%AA%E7%94%A8/</loc>
+    
+    <lastmod>2024-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://vliamzh.github.io/2024/07/13/git%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2024-07-13</lastmod>
@@ -29,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/2024/07/11/Vmware%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%87%AA%E7%94%A8Linux/</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/2024/07/11/%E6%B1%BD%E8%BD%A6/</loc>
     
     <lastmod>2024-07-11</lastmod>
@@ -59,15 +68,6 @@
     <loc>https://vliamzh.github.io/2024/05/19/SOC%E6%A0%B8%E5%BF%83%E4%B8%8E%E7%BA%BF%E7%A8%8B/</loc>
     
     <lastmod>2024-05-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/2024/05/17/vim%E8%87%AA%E7%94%A8/</loc>
-    
-    <lastmod>2024-05-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -119,20 +119,6 @@
 
   
   <url>
-    <loc>https://vliamzh.github.io/tags/cpu/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/tags/soc/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/tags/linux/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,6 +134,20 @@
   
   <url>
     <loc>https://vliamzh.github.io/tags/centos/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/cpu/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/soc/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -268,14 +268,14 @@
 
   
   <url>
-    <loc>https://vliamzh.github.io/categories/IC/</loc>
+    <loc>https://vliamzh.github.io/categories/Linux/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/Linux/</loc>
+    <loc>https://vliamzh.github.io/categories/IC/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -296,35 +296,7 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/IC/CPU/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/categories/Linux/neofetch/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/categories/git/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -338,7 +310,14 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/categories/IC/CPU/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -352,7 +331,7 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/%E5%9B%BE%E5%BA%8A/</loc>
+    <loc>https://vliamzh.github.io/categories/git/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,6 +345,20 @@
   </url>
   
   <url>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/categories/%E6%94%B6%E8%97%8F%E5%A4%B9/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -373,7 +366,7 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -381,6 +374,13 @@
   
   <url>
     <loc>https://vliamzh.github.io/categories/%E6%B1%BD%E8%BD%A6/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2024-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/</loc>
     <lastmod>2024-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
