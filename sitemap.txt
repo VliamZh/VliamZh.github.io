@@ -31,8 +31,7 @@ https://vliamzh.github.io/tags/%E8%AF%AD%E6%B3%95/
 https://vliamzh.github.io/tags/linux/
 https://vliamzh.github.io/tags/vmware/
 https://vliamzh.github.io/tags/centos/
-https://vliamzh.github.io/tags/tag1/
-https://vliamzh.github.io/tags/2/
+https://vliamzh.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/
 https://vliamzh.github.io/categories/IC/
 https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/
 https://vliamzh.github.io/categories/Linux/
@@ -48,4 +47,5 @@ https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%90
 https://vliamzh.github.io/categories/%E6%B1%BD%E8%BD%A6/%E5%9F%BA%E7%A1%80/
 https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/
 https://vliamzh.github.io/categories/Linux/neofetch/
-https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/2/
+https://vliamzh.github.io/categories/git/
+https://vliamzh.github.io/categories/git/%E6%95%99%E7%A8%8B/

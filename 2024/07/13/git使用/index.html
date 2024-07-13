@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>git使用 | vliamzh</title>
-  <meta name="keywords" content=" tag1 , 2 ">
+  <meta name="keywords" content=" git , 版本控制 ">
   <meta name="description" content="git使用 | vliamzh">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="生日：	1999&#x2F;05&#x2F;13籍贯：	安徽六安院校：	东南大学">
@@ -219,21 +219,10 @@
         <div data-rel="其它">
             <i class="fold iconfont icon-right"></i>
             其它
-            <small>(5)</small>
+            <small>(4)</small>
         </div>
         
             <ul class="sub hide">
-                
-                    
-    <li>
-        <div data-rel="其它&lt;---&gt;2">
-            
-            2
-            <small>(1)</small>
-        </div>
-        
-    </li>
-
                 
                     
     <li>
@@ -280,6 +269,32 @@
         
     
         
+            
+                
+    <li>
+        <div data-rel="git">
+            <i class="fold iconfont icon-right"></i>
+            git
+            <small>(1)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="git&lt;---&gt;教程">
+            
+            教程
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
             
         
     
@@ -403,6 +418,10 @@
     
         
             
+        
+    
+        
+            
                 
     <li>
         <div data-rel="汽车">
@@ -502,10 +521,6 @@
     <div class="tag-wrapper">
         
             <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>2</a>
-            </li>
-        
-            <li class="article-tag-list-item">
                 <i class="iconfont icon-tag"></i><a>centos</a>
             </li>
         
@@ -535,10 +550,6 @@
         
             <li class="article-tag-list-item">
                 <i class="iconfont icon-tag"></i><a>soc</a>
-            </li>
-        
-            <li class="article-tag-list-item">
-                <i class="iconfont icon-tag"></i><a>tag1</a>
             </li>
         
             <li class="article-tag-list-item">
@@ -582,6 +593,10 @@
             </li>
         
             <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>版本控制</a>
+            </li>
+        
+            <li class="article-tag-list-item">
                 <i class="iconfont icon-tag"></i><a>网站</a>
             </li>
         
@@ -606,9 +621,9 @@
         </a>
         
         
-        <a  class="全部文章 其它 2 "
+        <a  class="全部文章 git 教程 "
            href="/2024/07/13/git%E4%BD%BF%E7%94%A8/"
-           data-tag="tag1,2"
+           data-tag="git,版本控制"
            data-author="" >
             <span class="post-title" title="git使用">git使用</span>
             <span class="post-date" title="2024-07-13 15:43:13">2024/07/13</span>
@@ -725,9 +740,9 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="其它">其它</a> > 
+            <a  data-rel="git">git</a> > 
             
-            <a  data-rel="其它&lt;---&gt;2">2</a>
+            <a  data-rel="git&lt;---&gt;教程">教程</a>
             
         </span>
         
@@ -735,21 +750,21 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color5">tag1</a>
+            <a class="color4">git</a>
             
-            <a class="color2">2</a>
+            <a class="color5">版本控制</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2024-07-13 16:14:16'>2024-07-13 15:43</time>
+            发布时间 : <time class="date" title='最后更新: 2024-07-13 16:16:05'>2024-07-13 15:43</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:439</span>
+        <span>字数:471</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -798,6 +813,7 @@
         <h1 id="git使用"><a href="#git使用" class="headerlink" title="git使用"></a>git使用</h1><p>参考：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/e57a4a2cf077">git使用教程</a></p>
 <h2 id="1-分区"><a href="#1-分区" class="headerlink" title="1.分区"></a>1.分区</h2><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407131553300.png"></p>
 <p>Git更像是把数据看作是对小型文件系统的一系列快照。在Git中，每当你提交更新或保存项目状态时，它基本上就会对当时的全部文件创建一个快照并保存这个快照的索引。另外，如果文件没有修改，Git不再重新存储该文件，而是只保留一个链接指向之前存储的文件。<strong>Git对待数据更像是一个快照流</strong>。</p>
+<p><strong>实际上，Git仓库中保存的信息都是以文件内容的哈希值来索引，而不是文件名。</strong></p>
 <h2 id="2-常用操作"><a href="#2-常用操作" class="headerlink" title="2. 常用操作"></a>2. 常用操作</h2><table>
 <thead>
 <tr>
