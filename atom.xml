@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-07-14T14:51:53.538Z</updated>
+  <updated>2024-07-14T14:56:14.864Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://vliamzh.github.io/2024/07/14/VCS%E5%B7%A5%E5%85%B7/"/>
     <id>https://vliamzh.github.io/2024/07/14/VCS%E5%B7%A5%E5%85%B7/</id>
     <published>2024-07-14T14:33:22.000Z</published>
-    <updated>2024-07-14T14:51:53.538Z</updated>
+    <updated>2024-07-14T14:56:14.864Z</updated>
     
-    <content type="html"><![CDATA[<p>参考：</p><p><a href="https://blog.csdn.net/Tranquil_ovo/article/details/131797045">VCS仿真基础</a></p><p><a href="https://www.cnblogs.com/Icer-newer/p/17056466.html">博客园</a> PS: 也有许多验证的知识分享，虽然大部分知识点重合。</p><h1 id="一、工作过程"><a href="#一、工作过程" class="headerlink" title="一、工作过程"></a>一、工作过程</h1><ol><li>读取所有的 initial、always 、assgin 等语句，按照空间顺序放在队列里面。首先执行没有延时的语句（如变量的初始化赋值等）</li><li>执行完没有延时的语句之后，将时间 t 设为 0，称之为 current time。</li><li>然后，首先进入 active region。<br>在该区域内，VCS执行的操作包括：<br>① 原语（或门、非门、CMOS逻辑、PMOS逻辑、上拉、下拉 …）；<br>② $display；<br>③ 不包含任何延时信息的 assgin 语句；<br>④ 阻塞赋值（ &#x3D; ）；<br>⑤ 非阻塞赋值（ &lt;&#x3D; ）只计算右边的表达式，不进行赋值操作</li><li>进入 inactive region<br>执行带有 #0 的语句。<br>虽然没有延时，但是对于VCS而言，这种语句会比没有使用 # 设置延时的语句的执行时间晚一些。</li><li>进入 Nonblocking assgin region<br>对非阻塞赋值语句进行赋值操作</li><li>monitor region<br>monitor 系统函数是只有在变量发生变化的时候才会执行。</li><li>future region<br>执行其他语句</li></ol><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240565.png" alt="仿真事件队列"></p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240254.png" alt="详细工作流程"></p><p>（1）将 Verilog&#x2F;SV 翻译为 C 语言中间文件<br>（2）将 C 语言文件编译为对象文件（.o）<br>（3）连接后形成可执行文件</p><p>举例说明：</p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142243370.png" alt="编译过程"></p><p>针对宏的编译：</p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142245225.png" alt="针对宏的编译需要加命令"></p>]]></content>
+    <content type="html"><![CDATA[<p>参考：</p><p><a href="https://blog.csdn.net/Tranquil_ovo/article/details/131797045">VCS仿真基础</a></p><p>这个专栏还有覆盖率的介绍，可以看看</p><p><a href="https://blog.csdn.net/Tranquil_ovo/article/details/131926080">Code Coverage</a></p><p><a href="https://www.cnblogs.com/Icer-newer/p/17056466.html"> Icer_Newer博客园</a> PS: 也有许多验证的知识分享，虽然大部分知识点重合。</p><p>VCS编译选项，网上很多，随便贴几个吧，如下：</p><p><a href="https://www.cnblogs.com/jason20/p/12874742.html">VCS常用仿真选项开关及步骤总结</a></p><p><a href="https://blog.csdn.net/qq_40571921/article/details/122159598">VCS和UVM常用编译选项</a></p><h1 id="一、工作过程"><a href="#一、工作过程" class="headerlink" title="一、工作过程"></a>一、工作过程</h1><ol><li>读取所有的 initial、always 、assgin 等语句，按照空间顺序放在队列里面。首先执行没有延时的语句（如变量的初始化赋值等）</li><li>执行完没有延时的语句之后，将时间 t 设为 0，称之为 current time。</li><li>然后，首先进入 active region。<br>在该区域内，VCS执行的操作包括：<br>① 原语（或门、非门、CMOS逻辑、PMOS逻辑、上拉、下拉 …）；<br>② $display；<br>③ 不包含任何延时信息的 assgin 语句；<br>④ 阻塞赋值（ &#x3D; ）；<br>⑤ 非阻塞赋值（ &lt;&#x3D; ）只计算右边的表达式，不进行赋值操作</li><li>进入 inactive region<br>执行带有 #0 的语句。<br>虽然没有延时，但是对于VCS而言，这种语句会比没有使用 # 设置延时的语句的执行时间晚一些。</li><li>进入 Nonblocking assgin region<br>对非阻塞赋值语句进行赋值操作</li><li>monitor region<br>monitor 系统函数是只有在变量发生变化的时候才会执行。</li><li>future region<br>执行其他语句</li></ol><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240565.png" alt="仿真事件队列"></p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240254.png" alt="详细工作流程"></p><p>（1）将 Verilog&#x2F;SV 翻译为 C 语言中间文件<br>（2）将 C 语言文件编译为对象文件（.o）<br>（3）连接后形成可执行文件</p><p>举例说明：</p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142243370.png" alt="编译过程"></p><p>针对宏的编译：</p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142245225.png" alt="针对宏的编译需要加命令"></p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;参考：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/Tranquil_ovo/article/details/131797045&quot;&gt;VCS仿真基础&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/Ice</summary>
+&lt;p&gt;这个专栏还有覆盖率的介绍，可以看看&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;ht</summary>
       
     
     
