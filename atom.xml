@@ -18,8 +18,8 @@
   
   <entry>
     <title>效率软件</title>
-    <link href="https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85/"/>
-    <id>https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85/</id>
+    <link href="https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85-%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85-%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/</id>
     <published>2024-07-14T15:00:50.000Z</published>
     <updated>2024-07-14T15:15:00.344Z</updated>
     
@@ -336,9 +336,9 @@
     <category term="hexo" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/"/>
     
     
-    <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
-    
     <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
+    
+    <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
     
     <category term="备份" scheme="https://vliamzh.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
     
