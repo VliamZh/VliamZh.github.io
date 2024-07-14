@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>备份 | vliamzh</title>
-  <meta name="keywords" content=" git , hexo , 备份 ">
-  <meta name="description" content="备份 | vliamzh">
+  <title>VCS工具 | vliamzh</title>
+  <meta name="keywords" content=" vcs , verdi ">
+  <meta name="description" content="VCS工具 | vliamzh">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="生日：	1999&#x2F;05&#x2F;13籍贯：	安徽六安院校：	东南大学">
 <meta property="og:type" content="website">
@@ -760,9 +760,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-备份" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-VCS工具" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">备份</h1>
+        <h1 class="article-title">VCS工具</h1>
     
     <div class="article-meta">
         
@@ -772,9 +772,9 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="其它">其它</a> > 
+            <a  data-rel="IC">IC</a> > 
             
-            <a  data-rel="其它&lt;---&gt;hexo">hexo</a>
+            <a  data-rel="IC&lt;---&gt;VCS工具">VCS工具</a>
             
         </span>
         
@@ -782,23 +782,21 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color4">git</a>
+            <a class="color4">vcs</a>
             
-            <a class="color5">hexo</a>
-            
-            <a class="color3">备份</a>
+            <a class="color1">verdi</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2024-05-13 22:20:57'>2024-05-13 21:43</time>
+            发布时间 : <time class="date" title='最后更新: 2024-07-14 22:45:50'>2024-07-14 22:33</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:87</span>
+        <span>字数:310</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -828,7 +826,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%87%E4%BB%BD"><span class="toc-text">备份</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B"><span class="toc-text">一、工作过程</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -844,18 +842,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h1><ol>
-<li><p>需要在github创建一个仓库，然后clone该仓库</p>
-<pre><code class="git">git clone https://github.com/vliamzh/blogbackup.git
-</code></pre>
-</li>
-<li><p>将之前博客目录全部复制到该文件夹下（除了.git&#x2F;），以后都在该目录下工作</p>
-</li>
-<li><p>需要备份的时候直接运行以下命令</p>
-<pre><code class="git">git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push -f
-</code></pre>
-</li>
+        <p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Tranquil_ovo/article/details/131797045">VCS仿真基础</a></p>
+<h1 id="一、工作过程"><a href="#一、工作过程" class="headerlink" title="一、工作过程"></a>一、工作过程</h1><ol>
+<li>读取所有的 initial、always 、assgin 等语句，按照空间顺序放在队列里面。首先执行没有延时的语句（如变量的初始化赋值等）</li>
+<li>执行完没有延时的语句之后，将时间 t 设为 0，称之为 current time。</li>
+<li>然后，首先进入 active region。<br>在该区域内，VCS执行的操作包括：<br>① 原语（或门、非门、CMOS逻辑、PMOS逻辑、上拉、下拉 …）；<br>② $display；<br>③ 不包含任何延时信息的 assgin 语句；<br>④ 阻塞赋值（ &#x3D; ）；<br>⑤ 非阻塞赋值（ &lt;&#x3D; ）只计算右边的表达式，不进行赋值操作</li>
+<li>进入 inactive region<br>执行带有 #0 的语句。<br>虽然没有延时，但是对于VCS而言，这种语句会比没有使用 # 设置延时的语句的执行时间晚一些。</li>
+<li>进入 Nonblocking assgin region<br>对非阻塞赋值语句进行赋值操作</li>
+<li>monitor region<br>monitor 系统函数是只有在变量发生变化的时候才会执行。</li>
+<li>future region<br>执行其他语句</li>
 </ol>
+<p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240565.png" alt="仿真事件队列"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142240254.png" alt="详细工作流程"></p>
+<p>（1）将 Verilog&#x2F;SV 翻译为 C 语言中间文件<br>（2）将 C 语言文件编译为对象文件（.o）<br>（3）连接后形成可执行文件</p>
+<p>举例说明：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142243370.png" alt="编译过程"></p>
+<p>针对宏的编译：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142245225.png" alt="针对宏的编译需要加命令"></p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。 </span>
