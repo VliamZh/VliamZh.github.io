@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-07-14T15:15:00.344Z</updated>
+  <updated>2024-07-14T15:34:01.429Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>效率软件</title>
-    <link href="https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85-%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
-    <id>https://vliamzh.github.io/2024/07/14/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85-%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/</id>
+    <link href="https://vliamzh.github.io/2024/07/14/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://vliamzh.github.io/2024/07/14/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/</id>
     <published>2024-07-14T15:00:50.000Z</published>
-    <updated>2024-07-14T15:15:00.344Z</updated>
+    <updated>2024-07-14T15:34:01.429Z</updated>
     
     <content type="html"><![CDATA[<ul><li>quicker，配合沙拉查词可以实现翻译</li><li>PowerToys，微软出品，各种工具箱，并且慢慢集成了很多插件，比如Everything</li><li>Everything，全局搜索</li><li>Ditto，剪切板历史保存</li><li>Clash Verge</li><li>Quicklook，快速预览，本来配合Zotero使用，但是未来不做学术了，所以不必，但是这个功能PowerToys中自带</li><li>PixPin，代替Snipaste的截图软件</li><li>TranslucentTB，任务栏变透明的小软件</li><li>PicGo，配合typera实现github图床，写博客很方便</li><li></li><li></li></ul>]]></content>
     
@@ -38,9 +38,9 @@
     
     
     
-    <category term="电脑必装" scheme="https://vliamzh.github.io/categories/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85/"/>
+    <category term="重装电脑" scheme="https://vliamzh.github.io/categories/%E9%87%8D%E8%A3%85%E7%94%B5%E8%84%91/"/>
     
-    <category term="效率软件" scheme="https://vliamzh.github.io/categories/%E7%94%B5%E8%84%91%E5%BF%85%E8%A3%85/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+    <category term="效率软件" scheme="https://vliamzh.github.io/categories/%E9%87%8D%E8%A3%85%E7%94%B5%E8%84%91/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
     
     
     <category term="效率" scheme="https://vliamzh.github.io/tags/%E6%95%88%E7%8E%87/"/>
@@ -106,36 +106,6 @@
     <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
     
     <category term="版本控制" scheme="https://vliamzh.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vmware虚拟机自用Linux</title>
-    <link href="https://vliamzh.github.io/2024/07/11/delete-Linux%E8%87%AA%E7%94%A8/"/>
-    <id>https://vliamzh.github.io/2024/07/11/delete-Linux%E8%87%AA%E7%94%A8/</id>
-    <published>2024-07-11T15:14:30.000Z</published>
-    <updated>2024-07-14T15:13:43.267Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="自用虚拟机Vmware的Linux-Centos："><a href="#自用虚拟机Vmware的Linux-Centos：" class="headerlink" title="自用虚拟机Vmware的Linux-Centos："></a>自用虚拟机Vmware的Linux-Centos：</h1><h1 id="一、Linux常用"><a href="#一、Linux常用" class="headerlink" title="一、Linux常用"></a>一、Linux常用</h1><h1 id="二、自用的Linux-Centos："><a href="#二、自用的Linux-Centos：" class="headerlink" title="二、自用的Linux-Centos："></a>二、自用的Linux-Centos：</h1><ol><li>虚拟机Vmware实现</li><li>输入法：Ibus，切换使用win+space</li><li>SHELL：zsh</li><li>终端：xfce4</li><li><strong>使用neofetch查看系统信息</strong></li></ol><ul><li>使用sudo yum install neofetch安装，然后neofetch查看linux环境信息</li><li>安装epel-release &gt; yum install epel-release</li><li>添加第三方软件源 &gt; curl -o &#x2F;etc&#x2F;yum.repos.d&#x2F;konimex-neofetch-epel-7.repo <a href="https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo">https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo</a></li><li>使用包管理器安装 neofetch &gt; sudo yum install neofetch</li><li>运行 &gt; neofetch</li></ul><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407112319546.png" alt="界面"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;自用虚拟机Vmware的Linux-Centos：&quot;&gt;&lt;a href=&quot;#自用虚拟机Vmware的Linux-Centos：&quot; class=&quot;headerlink&quot; title=&quot;自用虚拟机Vmware的Linux-Centos：&quot;&gt;&lt;/a&gt;自用虚拟机Vmware</summary>
-      
-    
-    
-    
-    <category term="Linux" scheme="https://vliamzh.github.io/categories/Linux/"/>
-    
-    <category term="neofetch" scheme="https://vliamzh.github.io/categories/Linux/neofetch/"/>
-    
-    
-    <category term="linux" scheme="https://vliamzh.github.io/tags/linux/"/>
-    
-    <category term="vmware" scheme="https://vliamzh.github.io/tags/vmware/"/>
-    
-    <category term="centos" scheme="https://vliamzh.github.io/tags/centos/"/>
     
   </entry>
   
@@ -336,9 +306,9 @@
     <category term="hexo" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/"/>
     
     
-    <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
-    
     <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
+    
+    <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
     
     <category term="备份" scheme="https://vliamzh.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
     
