@@ -226,13 +226,6 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/tags/picgo/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,6 +241,13 @@
   
   <url>
     <loc>https://vliamzh.github.io/tags/typora/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -375,14 +375,14 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/%E5%9B%BE%E5%BA%8A/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -396,14 +396,14 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
