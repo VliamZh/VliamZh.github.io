@@ -838,12 +838,12 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2024-07-14 23:46:03'>2024-07-14 23:45</time>
+            发布时间 : <time class="date" title='最后更新: 2024-07-16 00:43:38'>2024-07-14 23:45</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:136</span>
+        <span>字数:214</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -873,7 +873,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%87%AA%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BAVmware%E7%9A%84Linux-Centos%EF%BC%9A"><span class="toc-text">自用虚拟机Vmware的Linux-Centos：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Linux%E5%B8%B8%E7%94%A8"><span class="toc-text">一、Linux常用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%87%AA%E7%94%A8%E7%9A%84Linux-Centos"><span class="toc-text">二、自用的Linux-Centos</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%87%AA%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BAVmware%E7%9A%84Linux-Centos%EF%BC%9A"><span class="toc-text">自用虚拟机Vmware的Linux-Centos：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Linux%E5%B8%B8%E7%94%A8"><span class="toc-text">一、Linux常用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%87%AA%E7%94%A8%E7%9A%84Linux-Centos"><span class="toc-text">二、自用的Linux-Centos</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A7%BB%E5%8A%A8%E5%85%89%E6%A0%87"><span class="toc-text">1. Linux命令行移动光标</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -906,6 +906,25 @@
 <li>运行 &gt; neofetch</li>
 </ul>
 <p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142328960.png" alt="界面展示"></p>
+<p>#三、一些必备设置</p>
+<h2 id="1-Linux命令行移动光标"><a href="#1-Linux命令行移动光标" class="headerlink" title="1. Linux命令行移动光标"></a>1. Linux命令行移动光标</h2><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407160042906.png" alt="命令行"><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407160043852.png" alt="命令行"></p>
+<p>##2.终端设置</p>
+<pre><code class="shell">#如果是csh，在cshrc中
+alias cd &#39;cd \!*; ls;&#39;
+#如果是bash，在bashrc中
+cd()
+&#123;
+builtin cd &quot;$@&quot; &amp;&amp; ls
+&#125;
+#如果是zsh，在zshrc中
+function cd() &#123;
+    emulate -LR zsh
+    builtin cd $@ &amp;&amp;
+    ls -a
+&#125;
+#如何查询SHELL
+echo $SHELL
+</code></pre>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。 </span>

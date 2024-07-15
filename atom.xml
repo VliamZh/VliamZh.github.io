@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-07-14T15:46:03.645Z</updated>
+  <updated>2024-07-15T16:43:38.673Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://vliamzh.github.io/2024/07/14/Linux%E8%87%AA%E7%94%A8/"/>
     <id>https://vliamzh.github.io/2024/07/14/Linux%E8%87%AA%E7%94%A8/</id>
     <published>2024-07-14T15:45:09.000Z</published>
-    <updated>2024-07-14T15:46:03.645Z</updated>
+    <updated>2024-07-15T16:43:38.673Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="自用虚拟机Vmware的Linux-Centos："><a href="#自用虚拟机Vmware的Linux-Centos：" class="headerlink" title="自用虚拟机Vmware的Linux-Centos："></a>自用虚拟机Vmware的Linux-Centos：</h1><h1 id="一、Linux常用"><a href="#一、Linux常用" class="headerlink" title="一、Linux常用"></a>一、Linux常用</h1><p>来源：<a href="https://www.runoob.com/w3cnote/linux-useful-command.html">菜鸟教程</a></p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142328285.png" alt="Linux常用操作"></p><h1 id="二、自用的Linux-Centos"><a href="#二、自用的Linux-Centos" class="headerlink" title="二、自用的Linux-Centos"></a>二、自用的Linux-Centos</h1><ol><li>虚拟机Vmware实现</li><li>输入法：Ibus，切换使用win+space</li><li>SHELL：zsh</li><li>终端：xfce4</li><li><strong>使用neofetch查看系统信息</strong></li></ol><ul><li>使用sudo yum install neofetch安装，然后neofetch查看linux环境信息</li><li>安装epel-release &gt; yum install epel-release</li><li>添加第三方软件源 &gt; curl -o &#x2F;etc&#x2F;yum.repos.d&#x2F;konimex-neofetch-epel-7.repo <a href="https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo">https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo</a></li><li>使用包管理器安装 neofetch &gt; sudo yum install neofetch</li><li>运行 &gt; neofetch</li></ul><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142328960.png" alt="界面展示"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="自用虚拟机Vmware的Linux-Centos："><a href="#自用虚拟机Vmware的Linux-Centos：" class="headerlink" title="自用虚拟机Vmware的Linux-Centos："></a>自用虚拟机Vmware的Linux-Centos：</h1><h1 id="一、Linux常用"><a href="#一、Linux常用" class="headerlink" title="一、Linux常用"></a>一、Linux常用</h1><p>来源：<a href="https://www.runoob.com/w3cnote/linux-useful-command.html">菜鸟教程</a></p><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142328285.png" alt="Linux常用操作"></p><h1 id="二、自用的Linux-Centos"><a href="#二、自用的Linux-Centos" class="headerlink" title="二、自用的Linux-Centos"></a>二、自用的Linux-Centos</h1><ol><li>虚拟机Vmware实现</li><li>输入法：Ibus，切换使用win+space</li><li>SHELL：zsh</li><li>终端：xfce4</li><li><strong>使用neofetch查看系统信息</strong></li></ol><ul><li>使用sudo yum install neofetch安装，然后neofetch查看linux环境信息</li><li>安装epel-release &gt; yum install epel-release</li><li>添加第三方软件源 &gt; curl -o &#x2F;etc&#x2F;yum.repos.d&#x2F;konimex-neofetch-epel-7.repo <a href="https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo">https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo</a></li><li>使用包管理器安装 neofetch &gt; sudo yum install neofetch</li><li>运行 &gt; neofetch</li></ul><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407142328960.png" alt="界面展示"></p><p>#三、一些必备设置</p><h2 id="1-Linux命令行移动光标"><a href="#1-Linux命令行移动光标" class="headerlink" title="1. Linux命令行移动光标"></a>1. Linux命令行移动光标</h2><p><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407160042906.png" alt="命令行"><img src="https://cdn.jsdelivr.net/gh/vliamzh/image@main/image/202407160043852.png" alt="命令行"></p><p>##2.终端设置</p><pre><code class="shell">#如果是csh，在cshrc中alias cd &#39;cd \!*; ls;&#39;#如果是bash，在bashrc中cd()&#123;builtin cd &quot;$@&quot; &amp;&amp; ls&#125;#如果是zsh，在zshrc中function cd() &#123;    emulate -LR zsh    builtin cd $@ &amp;&amp;    ls -a&#125;#如何查询SHELLecho $SHELL</code></pre>]]></content>
     
     
       
