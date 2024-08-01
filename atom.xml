@@ -167,8 +167,8 @@
   
   <entry>
     <title>博客搭建</title>
-    <link href="https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <link href="https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%89%AF%E6%9C%AC/"/>
+    <id>https://vliamzh.github.io/2024/07/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%89%AF%E6%9C%AC/</id>
     <published>2024-07-11T15:04:24.000Z</published>
     <updated>2024-07-14T15:20:34.596Z</updated>
     
@@ -377,9 +377,9 @@
     <link href="https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/"/>
     <id>https://vliamzh.github.io/2024/05/13/hexo%E4%BD%BF%E7%94%A8/</id>
     <published>2024-05-13T12:22:40.000Z</published>
-    <updated>2024-07-11T14:57:11.837Z</updated>
+    <updated>2024-08-01T14:23:31.898Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p><h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章$ hexo new &quot;文章名&quot;#生成静态文件$ hexo generate // hexo g#将一个草稿发布出去$ hexo publish [layout] &lt;filename&gt;#启动一个本地服务器$ hexo server // hexo s#推送到服务器hexo deploy // hexo d# 在git bash中设置快捷键echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc# 一般流程hexo cleanhexo ghexo s ，打开网页测试，没错误就可以输入下面的命令了hexo d</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="设置置顶"><a href="#设置置顶" class="headerlink" title="设置置顶"></a>设置置顶</h1><hr><p>给需要置顶的文章加入top参数，如下：</p><pre><code class="xml">---title: 每天一个linux命令date: 2017-01-23 11:41:48top: 1categories:- 其它tags:- hexo---</code></pre><p>如果存在多个置顶文章，top后的参数越大，越靠前。</p><hr><h1 id="快捷命令"><a href="#快捷命令" class="headerlink" title="快捷命令"></a>快捷命令</h1><pre><code class="git">#创建一个新的文章$ hexo new &quot;文章名&quot;#生成静态文件$ hexo generate // hexo g#将一个草稿发布出去$ hexo publish [layout] &lt;filename&gt;#启动一个本地服务器$ hexo server // hexo s#推送到服务器hexo deploy // hexo d# 在git bash中设置快捷键echo &quot;alias hs=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo s&#39;  #启动本地服务alias hd=&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;  #部署博客&quot;&gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc# 一般流程hexo cleanhexo ghexo s ，打开网页测试，没错误就可以输入下面的命令了hexo d</code></pre><hr><h1 id="备忘录"><a href="#备忘录" class="headerlink" title="备忘录"></a>备忘录</h1><pre><code class="git">#删除博客方法直接到博客主目录/source/_posts目录，找到你想删除的文章，鼠标右键删除即可，又或者重命名为其他文件（最好放到本地其他文件夹下）</code></pre>]]></content>
     
     
       
