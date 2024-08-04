@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vliamzh.github.io/2024/08/04/UVM%E5%A4%8D%E4%B9%A0/</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://vliamzh.github.io/2024/08/04/idea%E6%94%B6%E9%9B%86/</loc>
     
     <lastmod>2024-08-04</lastmod>
@@ -151,20 +160,6 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/tags/cpu/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/tags/soc/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://vliamzh.github.io/tags/idea/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -173,6 +168,20 @@
   
   <url>
     <loc>https://vliamzh.github.io/tags/%E6%94%B6%E9%9B%86/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/cpu/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/soc/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -311,6 +320,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://vliamzh.github.io/tags/UVM/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/tags/DV/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -321,14 +344,14 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/IC/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/</loc>
+    <loc>https://vliamzh.github.io/categories/IC/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -349,7 +372,14 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/IC/CPU/</loc>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/idea/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -370,7 +400,7 @@
   </url>
   
   <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/idea/</loc>
+    <loc>https://vliamzh.github.io/categories/IC/CPU/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -378,13 +408,6 @@
   
   <url>
     <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -441,6 +464,13 @@
   
   <url>
     <loc>https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/markdown/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://vliamzh.github.io/categories/IC/UVM/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
