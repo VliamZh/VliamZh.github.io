@@ -6,7 +6,7 @@
   <link href="https://vliamzh.github.io/atom.xml" rel="self"/>
   
   <link href="https://vliamzh.github.io/"/>
-  <updated>2024-08-04T08:47:51.214Z</updated>
+  <updated>2024-08-04T09:03:50.305Z</updated>
   <id>https://vliamzh.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UP收集</title>
+    <link href="https://vliamzh.github.io/2024/08/04/UP%E6%94%B6%E9%9B%86/"/>
+    <id>https://vliamzh.github.io/2024/08/04/UP%E6%94%B6%E9%9B%86/</id>
+    <published>2024-08-04T09:01:41.000Z</published>
+    <updated>2024-08-04T09:03:50.305Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://space.bilibili.com/2055684362">龚大的杂货铺</a></p><p>【上帝视角看GPU（1）：图形流水线基础】 <a href="https://www.bilibili.com/video/BV1P44y1V7bu/?share_source=copy_web&vd_source=6177a28327498e5a102082524afdc378">https://www.bilibili.com/video/BV1P44y1V7bu/?share_source=copy_web&amp;vd_source=6177a28327498e5a102082524afdc378</a></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://space.bilibili.com/2055684362&quot;&gt;龚大的杂货铺&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;【上帝视角看GPU（1）：图形流水线基础】 &lt;a href=&quot;https://www.bilibili.com/video/</summary>
+      
+    
+    
+    
+    <category term="其它" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    <category term="up" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/up/"/>
+    
+    
+    <category term="up" scheme="https://vliamzh.github.io/tags/up/"/>
+    
+    <category term="bilibili" scheme="https://vliamzh.github.io/tags/bilibili/"/>
+    
+  </entry>
   
   <entry>
     <title>UVM复习</title>
