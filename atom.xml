@@ -135,9 +135,9 @@
     <link href="https://vliamzh.github.io/2024/07/14/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
     <id>https://vliamzh.github.io/2024/07/14/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/</id>
     <published>2024-07-14T15:00:50.000Z</published>
-    <updated>2024-08-09T16:33:25.583Z</updated>
+    <updated>2024-08-09T16:54:54.396Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>quicker，配合沙拉查词可以实现翻译</li><li>PowerToys，微软出品，各种工具箱，并且慢慢集成了很多插件，比如Everything</li><li>Everything，全局搜索</li><li>Ditto，剪切板历史保存</li><li>Clash Verge</li><li>Quicklook，快速预览，本来配合Zotero使用，但是未来不做学术了，所以不必，但是这个功能PowerToys中自带</li><li>PixPin，代替Snipaste的截图软件</li><li>TranslucentTB，任务栏变透明的小软件</li><li>PicGo，配合typera实现github图床，写博客很方便</li><li>XmouseButtonControl，调节鼠标滑动灵敏度，配合不同的PDF阅读器使用</li><li>Dism++，系统调教的神</li><li>sizer， 窗口大小更改，右键到窗口最大化位置选择尺寸</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li>quicker，配合沙拉查词可以实现翻译</li><li>PowerToys，微软出品，各种工具箱，并且慢慢集成了很多插件，比如Everything</li><li>Everything，全局搜索</li><li>Ditto，剪切板历史保存</li><li>Clash Verge</li><li>Quicklook，快速预览，本来配合Zotero使用，但是未来不做学术了，所以不必，但是这个功能PowerToys中自带</li><li>PixPin，代替Snipaste的截图软件</li><li>TranslucentTB，任务栏变透明的小软件</li><li>PicGo，配合typera实现github图床，写博客很方便</li><li>XmouseButtonControl，调节鼠标滑动灵敏度，配合不同的PDF阅读器使用</li><li>Dism++，系统调教的神</li><li>sizer， 窗口大小更改，右键到窗口最大化位置选择尺寸</li><li>ExplorerPatcher 是一款用于改造Windows 11 开始菜单和任务栏的免费软件</li></ul>]]></content>
     
     
       
@@ -392,9 +392,9 @@
     <category term="hexo" scheme="https://vliamzh.github.io/categories/%E5%85%B6%E5%AE%83/hexo/"/>
     
     
-    <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
-    
     <category term="git" scheme="https://vliamzh.github.io/tags/git/"/>
+    
+    <category term="hexo" scheme="https://vliamzh.github.io/tags/hexo/"/>
     
     <category term="备份" scheme="https://vliamzh.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
     
